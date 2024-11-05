@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Форма для отпраки на удаленный сервер</title>
+        <link rel="stylesheet" href="../css/form.css">
+    </head>
+    <body>
+        <h1>Внешняя навигация</h1>
+        <div class="ex_nav_box">
+            <ol id="navigation">
+                <li><a href="index.html" class="link">Главная страница</a></li>
+                <li><a href="form.html" class="link active">Форма</a></li>
+                <li><a href="thematic_form.html" class="link">Тематическая форма</a></li>
+                <li><a href="table.html" class="link">Таблица</a></li>
+                <li><a href="https://coderun.yandex.ru/?clckid=929d62ae" target="_blank" class="link">CodeRun</a></li>
+                <li><a href="https://www.python.org/community/logos/" target="_blank">
+                    <img src="../images/craiyon_172033_python_logo_programming.png" width="50" height="50">
+                </a></li>
+                <li><a href="index.html">
+                    <img src="../images/craiyon_174244_Adblock_vpn.png" width="50" height="50">
+                </a></li>
+            </ol>
+        </div>
+        <div class="form">
+            <form action="https://yandex.ru/search/" method="get" target="_blank">
+                <label for="username">Имя:</label>
+                <input type="text" id="username" name="username" value="Михаил"><br>
+
+                <label for="surname">Фамилия:</label>
+                <input type="text" id="surname" name="surname" value="Васильев"><br>
+                
+                <label for="group">Группа:</label>
+                <input type="number" id="group" name="group" value="3"><br>
+                
+                <label for="phone_number">Номер телефона:</label>
+                <input type="text" id="phone_number" name="phone_number" value="79033457678"><br>
+                
+                <label for="e-mail">Электронная почта:</label>
+                <input type="text" id="e-mail" name="e-mail" value="vasilievmisha@gmail.com"><br>
+
+                <label for="date">Выберите дату:</label>
+                <input type="date" id="date" name="date" value="2024-11-01"><br>
+
+                <button type="submit">Отправить в поисковик</button>
+            </form>
+        </div>
+    </body>
+</html>
