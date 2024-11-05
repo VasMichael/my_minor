@@ -1,0 +1,34 @@
+html, body {
+    background-color: lightblue;
+    font-size: 25px;
+    color: black;
+}
+
+.form {
+    position: absolute;
+    top: 140px;
+    left: 650px;
+    width: 300px;
+    background-color: lightcoral;
+    padding: 30px;
+}
+
+.ex_nav_box {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+.active {
+    font-weight: bold;
+    /* color: red; */
+  }
+
+.link {
+    background-color: white;
+    color: black;
+  }

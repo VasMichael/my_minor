@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+table {
+    width: 60%;
+    height: 50%;
+    border-collapse: collapse;
+    background-image: url(../images/table_back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    margin: 20px;
+    font-family: monospace;
+    color: white;
+    font-weight: 80px;
+}
+th, td {
+    padding: 70px;
+    border: 2px solid white;
+}
+
+#inner_image {
+    background-image: url(../images/guido.jpg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+caption {
+    background-color: white;
+    color: black;
+    font-weight: 100px;
+    font-size: 40px;
+}
+
+
+.active {
+    font-weight: bold;
+  }
+
+.link {
+    background-color: white;
+    color: black;
+  }
+
+.ex_nav_box {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 3px solid #ccc;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    font-family:'Courier New', Courier, monospace;
+  }

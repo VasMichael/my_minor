@@ -1,0 +1,37 @@
+html, body {
+    background-color: lightblue;
+    font-size: 22px;
+    color: black;
+}
+
+.form {
+    position: absolute;
+    top: 10px;
+    left: 650px;
+    width: 700px;
+    background-color: lightcoral;
+    padding: 30px;
+}
+
+.ex_nav_box {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 3px solid #ccc;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+.active {
+    font-weight: bold;
+  }
+
+.link {
+    background-color: white;
+    color: black;
+  }
+
+tr, td {
+    background-color: white;
+}
