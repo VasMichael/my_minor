@@ -1,0 +1,94 @@
+body {
+    background-color: aquamarine;
+}
+.ex_nav_box {
+    background-color: lightblue;
+    font-size: 22px;
+    color: black;
+}
+
+#first_img {
+    position: absolute;
+    left: 700px;
+    top: 10px;
+}
+
+#second_img {
+    position: absolute;
+    left: 727px;
+    top: 450px
+}
+#place {
+    position: absolute;
+    left: 830px;
+    top: 70px;
+    width: 300px;
+}
+
+#code {
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+    width: 300px;
+}
+
+#date {
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    width: 300px;
+}
+
+#surname {
+    position: absolute;
+    left: 950px;
+    top: 402px;
+    width: 300px;
+}
+
+#name {
+    position: absolute;
+    left: 950px;
+    top: 458px;
+    width: 300px;
+}
+
+#middle_name {
+    position: absolute;
+    left: 950px;
+    top: 487px;
+    width: 300px;
+}
+
+#birth_date {
+    position: absolute;
+    left: 1000px;
+    top: 510px;
+    width: 300px;
+}
+
+#sex {
+    position: absolute;
+    left: 910px;
+    top: 510px;
+    width: 300px;
+}
+
+.ex_nav_box {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 3px solid #ccc;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .active {
+    font-weight: bold;
+  }
+
+.link {
+    background-color: white;
+    color: black;
+  }
